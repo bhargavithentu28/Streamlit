@@ -1,0 +1,11 @@
+# Exclude Python serverless functions and heavy ML dependencies from Vercel Lambda packaging
+app.py
+requirements.txt
+src/
+models/
+data/
+tests/
+scripts/
+configs/
+pytest.ini
+.venv/
