@@ -643,3 +643,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Vercel Serverless Function Discovery Compatibility
+def app(environ, start_response):
+    """WSGI callable for Vercel deployment discovery."""
+    status = '200 OK'
+    headers = [('Content-Type', 'text/plain; charset=utf-8')]
+    start_response(status, headers)
+    return [b"Electrical Equipment Image Classification Backend Active"]
+
+handler = app
+application = app
+

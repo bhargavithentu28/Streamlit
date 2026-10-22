@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-10-22T14:39:35.894710Z",
+  "model_path": "C:\\Users\\bharg\\OneDrive\\EEIC\\models\\best_model.keras",
+  "test_dir": "C:\\Users\\bharg\\OneDrive\\EEIC\\data\\processed\\test",
+  "test_loss": 1.7908,
+  "test_accuracy": 0.1667,
+  "macro_avg_f1": 0.0476,
+  "weighted_avg_f1": 0.0476,
+  "classification_report": {
+    "circuit_breaker": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "current_transformer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "disconnect_switch": {
+      "precision": 0.16666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.2857142857142857,
+      "support": 3.0
+    },
+    "insulator": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "transformer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "voltage_transformer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "accuracy": 0.16666666666666666,
+    "macro avg": {
+      "precision": 0.027777777777777776,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.047619047619047616,
+      "support": 18.0
+    },
+    "weighted avg": {
+      "precision": 0.027777777777777776,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.047619047619047616,
+      "support": 18.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ]
+  ],
+  "classes": [
+    "circuit_breaker",
+    "current_transformer",
+    "disconnect_switch",
+    "insulator",
+    "transformer",
+    "voltage_transformer"
+  ],
+  "total_test_samples": 18
+}
