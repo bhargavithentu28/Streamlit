@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-10-22T14:38:40.415626Z",
+  "epochs_requested": 15,
+  "epochs_completed": 7,
+  "training_duration_seconds": 43.82,
+  "learning_rate": 0.001,
+  "input_shape": [
+    128,
+    128,
+    3
+  ],
+  "classes": [
+    "circuit_breaker",
+    "current_transformer",
+    "disconnect_switch",
+    "insulator",
+    "transformer",
+    "voltage_transformer"
+  ],
+  "num_classes": 6,
+  "final_train_loss": 0.1179,
+  "final_train_accuracy": 0.9848,
+  "final_val_loss": 2.8525,
+  "final_val_accuracy": 0.1667,
+  "best_val_loss": 1.7909,
+  "history": {
+    "accuracy": [
+      0.5606,
+      0.9242,
+      0.8939,
+      0.9848,
+      0.8939,
+      0.9697,
+      0.9848
+    ],
+    "loss": [
+      1.2762,
+      0.2295,
+      0.2708,
+      0.1572,
+      0.3623,
+      0.1791,
+      0.1179
+    ],
+    "precision": [
+      0.619,
+      0.9524,
+      0.9365,
+      0.9846,
+      0.9333,
+      0.9839,
+      0.9846
+    ],
+    "recall": [
+      0.3939,
+      0.9091,
+      0.8939,
+      0.9697,
+      0.8485,
+      0.9242,
+      0.9697
+    ],
+    "val_accuracy": [
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667,
+      0.1667
+    ],
+    "val_loss": [
+      1.7909,
+      1.8038,
+      1.8773,
+      2.0015,
+      2.1875,
+      2.502,
+      2.8525
+    ],
+    "val_precision": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1667,
+      0.1667,
+      0.1667
+    ],
+    "val_recall": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1667,
+      0.1667,
+      0.1667
+    ],
+    "learning_rate": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.0005,
+      0.0005,
+      0.0005
+    ]
+  }
+}

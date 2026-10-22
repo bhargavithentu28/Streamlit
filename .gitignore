@@ -1,0 +1,57 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Data artifacts (preserve structure via README.md)
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/README.md
+!data/processed/.gitkeep
+
+# Model weights and checkpoints (preserve directory via README.md)
+models/*.keras
+models/*.h5
+models/checkpoints/
+
+# Evaluation and test results (preserve directory via README.md)
+results/*.png
+results/*.txt
+results/*.json
+!results/README.md
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & IDE
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

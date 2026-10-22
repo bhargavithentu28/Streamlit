@@ -1,0 +1,27 @@
+{
+  "class_to_idx": {
+    "circuit_breaker": 0,
+    "current_transformer": 1,
+    "disconnect_switch": 2,
+    "insulator": 3,
+    "transformer": 4,
+    "voltage_transformer": 5
+  },
+  "idx_to_class": {
+    "0": "circuit_breaker",
+    "1": "current_transformer",
+    "2": "disconnect_switch",
+    "3": "insulator",
+    "4": "transformer",
+    "5": "voltage_transformer"
+  },
+  "classes": [
+    "circuit_breaker",
+    "current_transformer",
+    "disconnect_switch",
+    "insulator",
+    "transformer",
+    "voltage_transformer"
+  ],
+  "num_classes": 6
+}
